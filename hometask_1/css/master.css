@@ -1,0 +1,40 @@
+section {
+    background-color: #e2e4e4;
+    padding: 7px 0 50px 0px;
+}
+.container.end.backgraund {
+    overflow: hidden;
+    border: 1px solid;
+    width: 870px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-color: #c4c5c5;
+}
+.container {
+  width: 715px;
+  border-bottom: 2px solid;
+  border-color: #c4c5c5;
+}
+h1.zagalovock {
+    text-align: center;
+    font-size: 25px;
+}
+.container h2 {
+    font-size: 20px;
+    margin: -6px 0 -6px 0px;
+}
+.otstup{
+  line-height: 1.5;
+}
+img.img-thumbnail.center-block {
+    width: 21%;
+}
+.linck{
+    text-decoration: underline;
+}
+.container.end{
+border-bottom: none;
+}
+.container.end.bottom {
+    margin-bottom: 35px;
+}
