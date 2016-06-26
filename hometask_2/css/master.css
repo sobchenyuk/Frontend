@@ -1,0 +1,97 @@
+@import url(http://allfont.ru/allfont.css?fonts=open-sans);
+
+#otstupLeft{
+    margin-left: -30px;
+}
+ul.nav.navbar-nav li a {
+    font-size: 14.667px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: white;
+    font-family: 'Open Sans', arial;
+}
+ul.nav.navbar-nav li {
+    margin: 0 19px 0 19px;
+}
+ul.nav.navbar-nav li a:hover{
+  background-image: -moz-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+}
+.navbar-color{
+  background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  border-color: rgba(8, 8, 8, 0);
+}
+.actived {
+  background-image: -moz-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-color: white;
+}
+
+/*contents*/
+
+section.contents {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+li.list-group-item a{
+    font-size: 14.333px;
+    color: rgb(101, 99, 99);
+    line-height: 1.8;
+    font-family: 'Open Sans', arial;
+    padding-left: 21px;
+}
+li.list-group-item.ackted a{
+    padding-left: 33px;
+    color: black;
+}
+li.list-group-item.ackted{
+  background-color: #f9f9f9;
+}
+.images {
+    border: 1px solid;
+    border-color: #dddddd;
+    margin-bottom: 20px;
+}
+
+div.images img {
+    width: 580px;
+    height: 335px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+section.contents p {
+    margin: 0px 35px 0px 35px;
+    color: rgb(44, 44, 44);
+    line-height: 1.6;
+    font-family: 'Open Sans', arial;
+    font-size: 14px;
+}
+/*footer*/
+.navbar-colorTwo{
+  background-color: #e1e1e1;
+  border-color: rgba(8, 8, 8, 0);
+}
+
+ul.nav.navbar-nav.footer li a {
+font-size: 13.33px;
+color: black;
+font-family: 'Open Sans', arial;
+}
+ul.nav.navbar-nav.footer li a:hover{
+background-image: -webkit-linear-gradient( 90deg, rgba(46, 46, 46, 0) 0%, rgba(74, 74, 74, 0) 100%);
+color: #ff0202;
+text-decoration: underline;
+}
+
+li.nav.navbar-nav.navbar-right a {
+    font-size: 13.33px;
+    color: black;
+    font-family: 'Open Sans', arial;
+    margin: 0 19px 0 19px;
+}
