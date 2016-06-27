@@ -1,5 +1,12 @@
 @import url(http://allfont.ru/allfont.css?fonts=open-sans);
 
+.logo {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', arial;
+} 
+
 #otstupLeft{
     margin-left: -30px;
 }
