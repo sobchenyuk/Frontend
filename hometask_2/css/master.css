@@ -24,7 +24,7 @@ ul.nav.navbar-nav.class li a {
 
   border-left: 1px solid;
   border-right: 1px solid;
-  border-color: #515050;
+  border-color: rgba(81, 80, 80, 0);
 }
 ul.nav.navbar-nav.class li a:hover {
 border-left: 1px solid;
