@@ -5,17 +5,31 @@
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: 'Open Sans', arial;
-} 
+}
 
 #otstupLeft{
     margin-left: -30px;
 }
 ul.nav.navbar-nav li a {
     font-size: 14.667px;
-    padding-left: 24px;
-    padding-right: 24px;
-    color: white;
-    font-family: 'Open Sans', arial;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: white;
+  font-family: 'Open Sans', arial;
+
+
+}
+ul.nav.navbar-nav.class li a {
+
+
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-color: #515050;
+}
+ul.nav.navbar-nav.class li a:hover {
+border-left: 1px solid;
+border-right: 1px solid;
+border-color: white;
 }
 ul.nav.navbar-nav li {
     margin: 0 19px 0 19px;
@@ -46,19 +60,53 @@ section.contents {
     margin-top: 20px;
     margin-bottom: 50px;
 }
+.col-md-3 {
+    width: 30%;
+}
+.col-md-9 {
+    width: 69%;
+    margin-left: 10px;
+}
+
 li.list-group-item a{
     font-size: 14.333px;
     color: rgb(101, 99, 99);
     line-height: 1.8;
     font-family: 'Open Sans', arial;
     padding-left: 21px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+        padding-right: 118px;
 }
-li.list-group-item.ackted a{
-    padding-left: 33px;
+
+li.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 0px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+li.list-group-item.ackted, li.list-group-item a {
+    -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+    -o-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+    -ms-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+    -moz-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+    transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+}
+
+
+li.list-group-item.ackted:hover {
+
+   color: black;
+   background-color: #f9f9f9;
+}
+li.list-group-item.ackted a:hover {
     color: black;
-}
-li.list-group-item.ackted{
-  background-color: #f9f9f9;
+    padding-left: 36px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 133px;
 }
 .images {
     border: 1px solid;
@@ -92,7 +140,6 @@ font-family: 'Open Sans', arial;
 }
 ul.nav.navbar-nav.footer li a:hover{
 background-image: -webkit-linear-gradient( 90deg, rgba(46, 46, 46, 0) 0%, rgba(74, 74, 74, 0) 100%);
-color: #ff0202;
 text-decoration: underline;
 }
 
@@ -101,4 +148,9 @@ li.nav.navbar-nav.navbar-right a {
     color: black;
     font-family: 'Open Sans', arial;
     margin: 0 19px 0 19px;
+}
+
+ul.nav.navbar-nav.footer.navbar-right li a.copiring:hover {
+  cursor: text;
+  text-decoration:none;
 }
